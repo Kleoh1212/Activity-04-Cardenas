@@ -26,7 +26,6 @@ else:
 
 cv2.startWindowThread()
 image = cv2.imread(filepath, flag)
-cv2.imshow("Show", image)
 windowTitle = "Kleoh"
 cv2.imshow( windowTitle , image)
 cv2.waitKey(0)
